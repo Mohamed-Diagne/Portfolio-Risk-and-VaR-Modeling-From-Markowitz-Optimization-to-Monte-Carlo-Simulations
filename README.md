@@ -43,7 +43,6 @@ It simulates both normal and stressed financial conditions.
 * **Monte Carlo Student-t VaR** delivered the most robust risk estimation.
 * Macro variables (especially Unemployment and Financial Conditions) significantly explain VaR fluctuations.
 
-
 ---
 
 ## 🚀 How to Run
@@ -51,22 +50,23 @@ It simulates both normal and stressed financial conditions.
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+3. Run `VaR_CVaR_RiskManagement.ipynb` from start to finish.
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements and 📖 References
+**Future Improvements:**
 * Test GARCH models for volatility clustering.
 * Integrate copula-based dependency models for better tail risk estimation.
 * Extend to portfolio-level Expected Shortfall under Basel III/IV frameworks.
 
----
+**References:**
+* Jorion, P. (2006). *Value at Risk: The New Benchmark for Managing Financial Risk*.
+* McNeil, Frey & Embrechts (2015). *Quantitative Risk Management: Concepts, Techniques and Tools*.
+* Glasserman, P. (2004). *Monte Carlo Methods in Financial Engineering*.
 
-## 📖 References
-* Jorion, P. (2006). Value at Risk: The New Benchmark for Managing Financial Risk.
-* McNeil, Frey & Embrechts (2015). Quantitative Risk Management: Concepts, Techniques and Tools.
-* Glasserman, P. (2004). Monte Carlo Methods in Financial Engineering.
 ---
 
 ## 📑 License
 This project is for educational purposes only.
-
